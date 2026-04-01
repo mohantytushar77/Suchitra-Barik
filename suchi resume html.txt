@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suchitra Barik | Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        h1 { font-family: 'Playfair Display', sans-serif; }
+        .resume-container { max-width: 1000px; margin: 40px auto; box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+        .section-header { border-bottom: 3px solid #1e3a8a; }
+    </style>
+</head>
+<body class="bg-gray-50 py-8">
+    <div class="resume-container bg-white mx-auto p-10 rounded-2xl">
+        
+        <!-- HEADER -->
+        <div class="flex justify-between items-start border-b pb-6 mb-8">
+            <div>
+                <h1 class="text-5xl font-bold text-gray-900">Suchitra Barik</h1>
+                <p class="text-2xl text-blue-900 mt-1">M.Tech (Research) • Applied Geology</p>
+                <p class="text-lg text-gray-600 mt-1">Indian Institute of Technology (ISM) Dhanbad</p>
+                <div class="flex gap-6 text-sm mt-4">
+                    <a href="mailto:bariksuchitra89@gmail.com" class="flex items-center gap-2 hover:text-blue-700">
+                        <i class="fas fa-envelope"></i> bariksuchitra89@gmail.com
+                    </a>
+                    <a href="tel:+917848863683" class="flex items-center gap-2 hover:text-blue-700">
+                        <i class="fas fa-phone"></i> +91 7848863683
+                    </a>
+                    <a href="https://linkedin.com/in/suchitra-barik-554844390" target="_blank" class="flex items-center gap-2 hover:text-blue-700">
+                        <i class="fab fa-linkedin"></i> linkedin.com/in/suchitra-barik-554844390
+                    </a>
+                </div>
+            </div>
+            <div class="text-right">
+                <p class="text-sm text-gray-500">Dhanbad, Jharkhand</p>
+                <p class="text-sm text-gray-500">Female • Languages: English, Hindi, Odia</p>
+            </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="mb-10">
+            <h2 class="section-header text-2xl font-semibold text-blue-950 pb-2 mb-6">EDUCATION</h2>
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-blue-50">
+                        <th class="py-3 px-4 font-medium">Examination</th>
+                        <th class="py-3 px-4 font-medium">University / Institute</th>
+                        <th class="py-3 px-4 font-medium">Year</th>
+                        <th class="py-3 px-4 font-medium">CPI / %</th>
+                    </tr>
+                </thead>
+                <tbody class="text-sm">
+                    <tr class="border-b">
+                        <td class="py-4 px-4 font-medium">Post Graduation</td>
+                        <td class="py-4 px-4">IIT (ISM) Dhanbad</td>
+                        <td class="py-4 px-4">2025 – Present</td>
+                        <td class="py-4 px-4">Ongoing</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="py-4 px-4 font-medium">Graduation</td>
+                        <td class="py-4 px-4">Maharaja Sriram Chandra Bhanja Deo University<br>Govt. Women’s College, Keonjhar</td>
+                        <td class="py-4 px-4">2025</td>
+                        <td class="py-4 px-4">8.59 / 10.0</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="py-4 px-4 font-medium">Class XII</td>
+                        <td class="py-4 px-4">Council of Higher Secondary Education, Odisha<br>Dharanidhar Higher Secondary School, Keonjhar</td>
+                        <td class="py-4 px-4">2021</td>
+                        <td class="py-4 px-4">69.33%</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-4 font-medium">Class X</td>
+                        <td class="py-4 px-4">Board of Secondary Education, Odisha<br>NS Police High School, Keonjhar</td>
+                        <td class="py-4 px-4">2018</td>
+                        <td class="py-4 px-4">80.00%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="text-xs mt-2 text-gray-500">Graduation Specialization: Geology (Hons.)</p>
+        </div>
+
+        <!-- FIELDWORK & RESEARCH EXPERIENCE -->
+        <div class="mb-10">
+            <h2 class="section-header text-2xl font-semibold text-blue-950 pb-2 mb-6">FIELDWORK & RESEARCH EXPERIENCE</h2>
+            <ul class="space-y-6 text-sm">
+                <li>
+                    <strong>Sedimentary Terrain Mapping Training</strong> | IIT (ISM) Dhanbad [M.Tech 1st Year, 2025–2026]<br>
+                    <span class="text-gray-600">Received intensive field training in sedimentary sequence analysis, stratigraphic logging, and terrain characterization.</span>
+                </li>
+                <li>
+                    <strong>Iron Ore Exploration & Mineralization Study</strong> | Narayanposhi Iron Ore Mines, Keonjhar, Odisha [B.Sc. 3rd Year]<br>
+                    <span class="text-gray-600">Studied mineralization patterns, ore body characteristics, and exploration techniques in an active iron ore mining environment.</span>
+                </li>
+                <li>
+                    <strong>Geological & Topographical Mapping</strong> | Bhimkund Region, Keonjhar, Odisha [B.Sc. 2nd Year]<br>
+                    <span class="text-gray-600">Performed structural outcrop mapping, topographic surveys, and strike/dip measurements using Brunton compass and clinometer.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- TECHNICAL STRENGTHS -->
+        <div class="mb-10">
+            <h2 class="section-header text-2xl font-semibold text-blue-950 pb-2 mb-6">TECHNICAL STRENGTHS</h2>
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <p class="font-medium mb-2">Geological Field Skills</p>
+                    <p class="text-sm">Structural mapping, lithological logging, topographic surveying, strike/dip measurements (Brunton compass & clinometer)</p>
+                </div>
+                <div>
+                    <p class="font-medium mb-2">Core Domain Knowledge</p>
+                    <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                        <span>Igneous, Sedimentary & Metamorphic Petrology</span>
+                        <span>Structural Geology</span>
+                        <span>Stratigraphy</span>
+                        <span>Economic Geology</span>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-medium mb-2">Relevant Coursework</p>
+                    <div class="text-sm space-y-1">
+                        Remote Sensing & Tectonics • Groundwater & Engineering Geology • Fuel Geology & Mineral Economics • Mining & Environmental Geology
+                    </div>
+                </div>
+                <div>
+                    <p class="font-medium mb-2">Soft Skills</p>
+                    <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                        <span>Analytical thinking</span>
+                        <span>Field data interpretation</span>
+                        <span>Technical report writing</span>
+                        <span>Collaborative research</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AREAS OF INTEREST -->
+        <div class="mb-10">
+            <h2 class="section-header text-2xl font-semibold text-blue-950 pb-2 mb-6">AREAS OF INTEREST</h2>
+            <p class="text-sm">Structural Geology | Economic Geology | Mineral Exploration | Iron Ore Mineralization | Field Terrain Mapping | Petrology</p>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="mb-10">
+            <h2 class="section-header text-2xl font-semibold text-blue-950 pb-2 mb-6">ACHIEVEMENTS</h2>
+            <ul class="list-disc pl-6 space-y-2 text-sm">
+                <li>Secured All India Rank 160 in IIT-JAM 2025 (Geology) out of 2,019 candidates</li>
+                <li>Graduated B.Sc. (Hons.) Geology with First Class with Distinction (CGPA 8.59/10.0, Honors Percentage 84.64%)</li>
+                <li>Secured multiple ’O’ (Outstanding) grades in core undergraduate papers including Stratigraphy and Igneous Petrology</li>
+            </ul>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="text-center text-xs text-gray-400 border-t pt-6">
+            <p>All the above information is correct according to me • Place: Dhanbad • Suchitra Barik</p>
+        </div>
+    </div>
+
+    <div class="text-center text-xs text-gray-400 mt-8">
+        Generated on 31 March 2026 • 
+        <a href="https://linkedin.com/in/suchitra-barik-554844390" target="_blank" class="text-blue-600 hover:underline">View LinkedIn Profile</a>
+    </div>
+</body>
+</html>
